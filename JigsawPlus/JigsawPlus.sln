@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JigsawPlus.Plugins", "JigsawPlus.Plugins.csproj", "{AB82D51A-BD0D-9C86-E231-C5C29577B6D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JigsawPlus", "JigsawPlus.csproj", "{6BC6D1FD-3D1A-0750-CB62-C0173A0374E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JigsawPlus.Editor", "JigsawPlus.Editor.csproj", "{BC60BA37-0899-7909-A4B3-8A1DF001F588}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB82D51A-BD0D-9C86-E231-C5C29577B6D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB82D51A-BD0D-9C86-E231-C5C29577B6D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB82D51A-BD0D-9C86-E231-C5C29577B6D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB82D51A-BD0D-9C86-E231-C5C29577B6D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BC6D1FD-3D1A-0750-CB62-C0173A0374E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BC6D1FD-3D1A-0750-CB62-C0173A0374E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BC6D1FD-3D1A-0750-CB62-C0173A0374E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BC6D1FD-3D1A-0750-CB62-C0173A0374E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC60BA37-0899-7909-A4B3-8A1DF001F588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC60BA37-0899-7909-A4B3-8A1DF001F588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC60BA37-0899-7909-A4B3-8A1DF001F588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC60BA37-0899-7909-A4B3-8A1DF001F588}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

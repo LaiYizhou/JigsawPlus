@@ -1,0 +1,18 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/UI/GameOver/GameOver.tpsheet
+- Assets/UI/GamePlay/GamePlay.tpsheet
+- Assets/UI/GameStart/GameStart.tpsheet
+textureFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/UI/GameOver/GameOver.png
+- Assets/UI/GamePlay/GamePlay.png
+- Assets/UI/GameStart/GameStart.png
+normalmapFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+enableDebugOutput: 0

@@ -1,0 +1,15 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: GameOver.png (1024 x 1024)
+# $TexturePacker:SmartUpdate:44a83a1be996d60cda38154888b0f643:92cdeb3e923483ca86f574b1ebaf32e8:2fae7a14f123fb45201f019e068b319d$
+#
+
+btn_home;2;814;416;129;0.5;0.5
+btn_restart;573;893;416;129;0.5;0.5
+gameover;2;945;569;77;0.5;0.5
+newrecond;420;825;389;66;0.5;0.5
+score;811;742;177;149;0.5;0.5

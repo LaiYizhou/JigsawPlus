@@ -1,0 +1,15 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: GamePlay.png (1024 x 1024)
+# $TexturePacker:SmartUpdate:6d28f642e1f899438acd82c69e4523b8:172b5658d0c0d77ee7bd71bc657cb531:d4a5f9e589445e1f737fcf64185f9a10$
+#
+
+blockBg;706;821;209;201;0.5;0.5
+chessboard;2;232;694;685;0.5;0.5
+sound_off;917;868;76;76;0.5;0.5
+sound_on;917;946;76;76;0.5;0.5
+top;2;919;702;103;0.5;0.5
