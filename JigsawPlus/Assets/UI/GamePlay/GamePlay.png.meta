@@ -9,6 +9,7 @@ TextureImporter:
     21300004: sound_off
     21300006: sound_on
     21300008: top
+    21300010: btn_back
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -110,10 +111,23 @@ TextureImporter:
       name: blockBg
       rect:
         serializedVersion: 2
-        x: 706
+        x: 724
         y: 821
         width: 209
         height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_back
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 796
+        width: 85
+        height: 74
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,9 +138,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2
-        y: 232
-        width: 694
-        height: 685
+        y: 193
+        width: 700
+        height: 704
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,10 +150,10 @@ TextureImporter:
       name: sound_off
       rect:
         serializedVersion: 2
-        x: 917
-        y: 868
-        width: 76
-        height: 76
+        x: 935
+        y: 872
+        width: 85
+        height: 74
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,10 +163,10 @@ TextureImporter:
       name: sound_on
       rect:
         serializedVersion: 2
-        x: 917
-        y: 946
-        width: 76
-        height: 76
+        x: 935
+        y: 948
+        width: 85
+        height: 74
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,9 +177,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2
-        y: 919
-        width: 702
-        height: 103
+        y: 899
+        width: 720
+        height: 123
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

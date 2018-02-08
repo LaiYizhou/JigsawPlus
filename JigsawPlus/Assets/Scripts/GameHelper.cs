@@ -280,17 +280,28 @@ public class GameHelper : MonoBehaviour
             if(GameHelper.Instance.GameMode == EGameMode.SEVEN)
                 return new Vector2(-264.5f, 264.5f);
             else
-                return new Vector2(-282.0f, 279.0f);
+                return new Vector2(-278.0f, 274.0f);
         }
     }
-    public static float Offset
+    public static float XOffset
     {
         get
         {
-            if (GameHelper.Instance.GameMode == EGameMode.SEVEN)
-                return 87.5f;
-            else
-                return 62.3f;
+            //if (GameHelper.Instance.GameMode == EGameMode.SEVEN)
+            //    return 87.5f;
+            //else
+                return 61.48f;
+        }
+    }
+
+    public static float YOffset
+    {
+        get
+        {
+            //if (GameHelper.Instance.GameMode == EGameMode.SEVEN)
+            //    return 87.5f;
+            //else
+            return 60.39f;
         }
     }
 
@@ -325,7 +336,7 @@ public class GameHelper : MonoBehaviour
         for (int x = 0; x < GameHelper.SIZE; x++)
         for (int y = 0; y < GameHelper.SIZE; y++)
         {
-            MapPos[x, y] = new Vector2(StartPos.x + Offset * y, StartPos.y - Offset * x);
+            MapPos[x, y] = new Vector2(StartPos.x + XOffset * y, StartPos.y - YOffset * x);
             MapPosList.Add(MapPos[x, y]);
         }
     }

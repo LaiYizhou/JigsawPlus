@@ -46,7 +46,7 @@ public class IronSourceControl : MonoBehaviour {
 	    //SDK init
 	    Debug.Log("IronSource.Agent.init");
 	    IronSource.Agent.setUserId("uniqueUserId");
-	    IronSource.Agent.init(appKey);
+	    //IronSource.Agent.init(appKey);
 	    IronSource.Agent.init (appKey, IronSourceAdUnits.REWARDED_VIDEO, IronSourceAdUnits.INTERSTITIAL, IronSourceAdUnits.BANNER);
 
 

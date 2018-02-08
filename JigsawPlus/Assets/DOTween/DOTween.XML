@@ -470,7 +470,7 @@
             <para>Example usage with lambda:</para><code>x=> myProperty = x</code></param>
             <param name="endValue">The end value to reach</param><param name="duration">The tween's duration</param>
         </member>
-        <member name="M:DG.Tweening.DOTween.To(DG.Tweening.Core.DOGetter{UnityEngine.RectOffset},DG.Tweening.Core.DOSetter{UnityEngine.RectOffset},UnityEngine.RectOffset,System.Single)">
+        <member name="M:DG.Tweening.DOTween.To(DG.Tweening.Core.DOGetter{UnityEngine.RectXOffset},DG.Tweening.Core.DOSetter{UnityEngine.RectXOffset},UnityEngine.RectXOffset,System.Single)">
             <summary>Tweens a property or field to the given value using default plugins</summary>
             <param name="getter">A getter for the field or property to tween.
             <para>Example usage with lambda:</para><code>()=> myProperty</code></param>
@@ -1347,13 +1347,13 @@
             <param name="property">The name of the material property to tween</param>
             <param name="duration">The duration of the tween</param>
         </member>
-        <member name="M:DG.Tweening.ShortcutExtensions.DOOffset(UnityEngine.Material,UnityEngine.Vector2,System.Single)">
+        <member name="M:DG.Tweening.ShortcutExtensions.DOXOffset(UnityEngine.Material,UnityEngine.Vector2,System.Single)">
             <summary>Tweens a Material's texture offset to the given value.
             Also stores the material as the tween's target so it can be used for filtered operations</summary>
             <param name="endValue">The end value to reach</param>
             <param name="duration">The duration of the tween</param>
         </member>
-        <member name="M:DG.Tweening.ShortcutExtensions.DOOffset(UnityEngine.Material,UnityEngine.Vector2,System.String,System.Single)">
+        <member name="M:DG.Tweening.ShortcutExtensions.DOXOffset(UnityEngine.Material,UnityEngine.Vector2,System.String,System.Single)">
             <summary>Tweens a Material's named texture offset property to the given value.
             Also stores the material as the tween's target so it can be used for filtered operations</summary>
             <param name="endValue">The end value to reach</param>

@@ -5,10 +5,10 @@
 # http://www.codeandweb.com/texturepacker/unity
 #
 # Sprite sheet: GameStart.png (1024 x 1024)
-# $TexturePacker:SmartUpdate:7430fd46c9d0403a45f041a42ac74c47:eafe761b86236e748ab6541265f6eb26:73f9454b4dd79351f0f7fe4f28dc7aa1$
+# $TexturePacker:SmartUpdate:abd42d7557e1a743c6f06dd2b8930bec:b409b905caba224ebe3312ab45ccbc46:73f9454b4dd79351f0f7fe4f28dc7aa1$
 #
 
-btn_ok;523;110;416;129;0.5;0.5
+btn_ok;523;7;416;129;0.5;0.5
 btn_rateus;2;93;519;146;0.5;0.5
-gameplay;2;14;526;77;0.5;0.5
+gameplay;523;138;488;101;0.5;0.5
 gameplay_bg;2;241;645;781;0.5;0.5

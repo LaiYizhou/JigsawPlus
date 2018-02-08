@@ -90,6 +90,7 @@ public class ImageControl : MonoBehaviour
             ImageItemsList[ToFilledImageList[i]].FillImage(shapeItem.SpriteColor);
 
         CanvasControl.Instance.Score += shapeItem.BlockNumber;
+
         flag = 0;
 
         for (int i = 0; i < ToFilledImageList.Count; i++)

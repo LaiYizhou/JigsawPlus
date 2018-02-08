@@ -9,7 +9,6 @@ public class CanvasControl : MonoBehaviour
 
     public static CanvasControl Instance;
 
-
     public static Vector3 OFFSET_VECTOR3 = new Vector3(0.0f, 20.0f, 0.0f);
 
     public enum EShape
@@ -69,9 +68,7 @@ public class CanvasControl : MonoBehaviour
     private GameObject noMove;
     private Vector2 noMoveOriginalPos;
 
-    public List<Transform> _ShapeSourceTransformsList;
-    public List<EShape> CandidateEShapes = new List<EShape>();
-   
+    public List<Transform> _ShapeSourceTransformsList;   
 
     public ImageControl imageControl;
     public GameOver gameOver;
